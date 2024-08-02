@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleCad2.css">
+    <title>segundo cadastro</title>
+</head>
+<body>
+    <h1>Formulário de contato</h1>
+    <form action="subit" method="post">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" required maxlength="75"
+        minlength="2" placeholder="Digite seu nome">
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" required placeholder="Digite seu email">
+
+        <label for="telephone">Telefone:</label>
+        <input type="tel" id="telephone" required placeholder="Digite seu número">
+
+        <label for="age">Idade:</label>
+        <input type="number" id="age" name="age" min="1" max="200" required placeholder="Digite sua idade">
+
+        <h4>Linguagem Preferida</h4>
+        <label for="html">HTML</label>
+        <input type="radio" name="fav" id="hyml" value="html">
+
+        <label for="css">CSS</label>
+        <input type="radio" name="fav" id="css" value="css">
+
+        <label for="javascript">JAVASCRIPT</label>
+        <input type="radio" name="fav" id="javascript" value="javascript">
+
+        <label for="menssage">Menssagem:</label>
+        <textarea type="menssage" id="menssage"  rows="5" required placeholder="Digite seu email"
+        placeholder="digite sua Menssagem"></textarea>
+
+        <button type="submit">Enviar</button>
+    
+    </form>
+</body>
+</html>
